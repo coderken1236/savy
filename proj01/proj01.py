@@ -1,3 +1,5 @@
+# Testing Testing 1, 2, 3,
+
 # Name
 # Date
 
@@ -8,4 +10,3 @@
 # If you complete extensions, describe your extensions here!
 Name = raw_input("What is your name?: ")
 print Name, " will be 100 in the year", 2017 - int(Age) + 100
-print "Wow that's a long time"
