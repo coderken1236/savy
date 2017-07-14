@@ -46,3 +46,30 @@ def choose_word(wordlist):
 wordlist = load_words()
 
 # your code begins here!
+print "Welcome to HANGMAN!" \
+      "I am your host Computer"
+print "Let's get started"
+random_word = choose_word(wordlist)
+list = []
+str = random_word
+for letter in str:
+    list.append(letter)
+print list
+list1 = []
+len(list1)
+print len(list1)
+for letter in list:
+    list.append("_")
+print list
+counter1 = 8
+while counter1 > 0:
+        guess = raw_input("Guess a letter")
+        if guess in list:
+
+            print "That letter is in the sentence."
+            print counter1
+        elif guess != list:
+            print "Sorry, that is not one of the letters."
+            counter1 = counter1 - 1
+        elif counter1 == 0:
+            print "Im sorry. You ran out of guesses"
